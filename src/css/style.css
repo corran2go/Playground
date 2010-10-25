@@ -1,6 +1,6 @@
 * {
   font-family: Verdana, Helvetica, sans-serif;
-  font-size: 10px;
+  font-size: 16px;
 }
 
 body {
@@ -17,16 +17,4 @@ body {
 #mainView {
   padding: 2px;
   background-color: #FFFFFF;
-}
-
-@media all and (min-resolution: 200dpi) {
-  * {
-    font-size: 12px;
-  }
-}
-
-@media all and (min-resolution: 250dpi) {
-  * {
-    font-size: 16px;
-  }
 }
