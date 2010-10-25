@@ -1,0 +1,32 @@
+* {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #00FF00;
+}
+
+#views {
+  padding: 2px;
+  background-color: #0000FF;
+}
+
+#mainView {
+  padding: 2px;
+  background-color: #FFFFFF;
+}
+
+@media all and (min-resolution: 200dpi) {
+  * {
+    font-size: 12px;
+  }
+}
+
+@media all and (min-resolution: 250dpi) {
+  * {
+    font-size: 16px;
+  }
+}
