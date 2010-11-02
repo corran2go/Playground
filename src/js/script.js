@@ -13,8 +13,7 @@
 
   for (var x = 0; x < canvasData.width; x++) {
     for (var y = 0; y < canvasData.height; y++) {
-	  setPixel(canvasData, x, y, parseInt(Math.random() * 256), parseInt(Math.random() * 256), parseInt(Math.random() * 256), 0xff);
-	  //console.log("put pixel");
+	  setPixel(canvasData, x, y, parseInt(Math.random() * 255), parseInt(Math.random() * 255), parseInt(Math.random() * 255), 0xff);
 	}
   }
   context.putImageData(canvasData, 0, 0);
