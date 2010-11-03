@@ -1,20 +1,12 @@
 (function playground() {
-  var canvas = document.getElementById("canvas");
-  var context = canvas.getContext("2d");
-  var canvasData = context.createImageData(canvas.width, canvas.height);
 
-  function setPixel(imageData, x, y, r, g, b, a) {
-    var index = (x + y * imageData.width) * 4;
-    imageData.data[index+0] = r;
-    imageData.data[index+1] = g;
-    imageData.data[index+2] = b;
-    imageData.data[index+3] = a;
-  }
-
-  for (var x = 0; x < canvasData.width; x++) {
-    for (var y = 0; y < canvasData.height; y++) {
-	  setPixel(canvasData, x, y, parseInt(Math.random() * 255), parseInt(Math.random() * 255), parseInt(Math.random() * 255), 0xff);
+  function onResize(event) {
+    if (window.console) {
+      console.log("onResize() event=" + event);
 	}
   }
-  context.putImageData(canvasData, 0, 0);
+
+  addEventListener("resize", function (event) {
+    onResize(event);
+  }, false );
 })();
