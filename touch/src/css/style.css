@@ -1,0 +1,33 @@
+body {
+  background-color: #EEEEEE;
+  font-size: 16px;
+  margin: 0px;
+  padding: 8px;
+}
+
+button {
+  font-size: 16px;
+}
+
+#clearButton {
+  float: right;
+}
+
+#linkDiv {
+  margin: 24px 0px;
+}
+
+#touchDiv {
+  background-color: #66FF66;
+  margin: 24px 0px;
+}
+
+#imgDiv {
+  margin: 24px 0px;
+}
+
+#eventDisplay {
+  background-color: #DDDDDD;
+  margin: 24px 0px;
+  font-size: 12px;
+}

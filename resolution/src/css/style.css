@@ -1,0 +1,20 @@
+* {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #00FF00;
+}
+
+#views {
+  padding: 2px;
+  background-color: #0000FF;
+}
+
+#mainView {
+  padding: 2px;
+  background-color: #FFFFFF;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>Playground</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  </head>
+  <body>
+    <div id="buttonDiv">
+      <button id="clearButton" type="button">Clear</button>
+      <button type="button"
+              onmousedown="showEvent('button.mousedown')" 
+              onmouseup="showEvent('button.mouseup')" 
+              onclick="showEvent('button.click')">
+        Touch Button
+      </button>
+    </div>
+    <div id="linkDiv">
+      <a href="javascript:void(null)" 
+         onmousedown="showEvent('link.mousedown')" 
+         onmouseup="showEvent('link.mouseup')" 
+         onclick="showEvent('link.click')">
+        Touch Link
+      </a>
+    </div>
+    <div id="touchDiv"
+         onmousedown="showEvent('div.mousedown')" 
+         onmouseup="showEvent('div.mouseup')" 
+         onclick="showEvent('div.click')">
+      Touch Div
+    </div>
+    <div id="imageDiv">
+      <img src="img/1.png"
+           onmousedown="showEvent('img.mousedown')" 
+           onmouseup="showEvent('img.mouseup')" 
+           onclick="showEvent('img.click')" />
+      Touch Image
+    </div>
+    <div id="eventDisplay"></div>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
